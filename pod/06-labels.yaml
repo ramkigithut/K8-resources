@@ -3,7 +3,7 @@ kind: pod
 metadata:
   name: label-pod
   labels:
-    practitioner: ramakrishna-reddithi
+    practitioner: ramakrishna
     skill: docker
 spec:
   containers:
