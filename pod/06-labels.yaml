@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: label-pod
+  labels:
+    practitioner: ramakrishna-reddithi
+    skill: docker
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+
+
+
+
