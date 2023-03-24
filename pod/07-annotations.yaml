@@ -1,10 +1,9 @@
 apiVersion: v1
 kind: pod
 metadata:
-  name: label-pod
-  labels:
-    practitioner: ramakrishna
-    skill: docker
+  name: annotation-pod
+  annotations:
+    org.docker.kubernetes.image.maintainer: rrk
 spec:
   containers:
     - name: nginx
