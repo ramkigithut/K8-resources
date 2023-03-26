@@ -4,7 +4,7 @@ kind: Pod
 metadata:
   name: nginx
 labels:
-    machine: service-web-nginx
+  machine: service-web-nginx
 spec:
   containers:
     - name: nginx
