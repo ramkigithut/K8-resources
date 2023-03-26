@@ -4,9 +4,7 @@ kind: Pod
 metadata:
   name: nginx
 labels:
-  {
-    name: service-web-nginx
-  }
+    machine: service-web-nginx
 spec:
   containers:
     - name: nginx
@@ -20,7 +18,7 @@ metadata:
   name: nginx-service
 spec:
   selector:
-    name:service-web-nginx
+    machine: service-web-nginx
   ports:
     - protocol: TCP
       port: 80
