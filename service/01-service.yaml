@@ -3,8 +3,8 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx
-labels:
-  machine: service-web-nginx
+  labels:
+    environment: production
 spec:
   containers:
     - name: nginx
@@ -18,7 +18,7 @@ metadata:
   name: nginx-service
 spec:
   selector:
-    machine: service-web-nginx
+    environment: production
   ports:
     - protocol: TCP
       port: 80
