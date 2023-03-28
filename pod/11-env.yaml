@@ -11,4 +11,6 @@ spec:
           value: docker
         - name: practice
           value: docker extensive
+        - name: length
+          value: regular
 
